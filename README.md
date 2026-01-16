@@ -460,20 +460,41 @@ Contributions welcome! Feel free to:
 
 ---
 
+## Acknowledgements
+
+This project includes content adapted from the following sources. Full credit and thanks to the original authors:
+
+### External Skills
+
+| Skill | Original Source | Authors |
+|-------|-----------------|---------|
+| React Best Practices | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | [Vercel](https://vercel.com) Engineering Team |
+| Web Design Guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | [Vercel](https://vercel.com) Engineering Team |
+
+### Inspiration & Patterns
+
+| Concept | Source | Description |
+|---------|--------|-------------|
+| Ralph Loops | [snarktank/amp-skills](https://github.com/snarktank/amp-skills) | Autonomous task execution patterns |
+| Skill Architecture | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | YAML frontmatter skill format |
+
+### Special Thanks
+
+- **[Vercel Labs](https://github.com/vercel-labs)** - For open-sourcing their comprehensive React and Web Design guidelines that form the foundation of the included skills
+- **[SnarktanK](https://github.com/snarktank)** - For pioneering the "Ralph Loop" autonomous execution pattern for AI coding agents
+- **[Anthropic](https://anthropic.com)** - For Claude and Claude Code
+
+---
+
 ## License
 
 MIT License - See [LICENSE](LICENSE) for details.
 
----
-
-## Credits
-
-- **Skills Source:** [Vercel Labs](https://github.com/vercel-labs/agent-skills)
-- **Built with:** [Claude Code](https://claude.ai/code)
-- **Inspired by:** The need for reusable AI agent capabilities
+The external skills included in this repository are derived from open source projects. Please refer to the original repositories for their specific licensing terms.
 
 ---
 
 <p align="center">
-  <i>Made with Claude Code</i>
+  <i>Built with Claude Code</i><br>
+  <i>Standing on the shoulders of giants</i>
 </p>
