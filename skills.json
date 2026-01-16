@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "External Skills Registry - Enable/disable external skills without modifying core commands",
+  "version": "1.0.0",
+  "enabled": [
+    "vercel-labs/react-best-practices",
+    "vercel-labs/web-design-guidelines"
+  ],
+  "disabled": [],
+  "aliases": {
+    "react": "vercel-labs/react-best-practices",
+    "nextjs": "vercel-labs/react-best-practices",
+    "ux": "vercel-labs/web-design-guidelines",
+    "ui-audit": "vercel-labs/web-design-guidelines",
+    "accessibility": "vercel-labs/web-design-guidelines"
+  },
+  "sources": {
+    "vercel-labs": {
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "description": "Official Vercel engineering skills for React/Next.js optimization"
+    },
+    "snarktank": {
+      "repository": "https://github.com/snarktank/amp-skills",
+      "description": "Amp AI coding agent skills (browser automation, ralph loops)"
+    }
+  }
+}
